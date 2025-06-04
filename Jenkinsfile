@@ -13,7 +13,7 @@ pipeline {
             steps {
                 deleteDir()
                 git branch: 'develop',
-                    url: 'https://github.com/nsa0320/javulna.git',
+                    url: 'https://github.com/nsa0320/DVWA.git',
                     credentialsId: '1'
             }
         }
